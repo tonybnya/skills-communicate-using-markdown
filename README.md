@@ -60,31 +60,27 @@ GitHub Actions went ahead and made a branch for you. So you'll need to add to th
 
 #### How it looks
 
-```
-$ git init
-Initialized empty Git repository in /Users/skills/Projects/recipe-repository/.git/
-```
+- [x] List syntax is required
+- [x] This item is complete
+- [ ] This item is not complete
 
-### Example 2
+### :keyboard: Activity: Add a task list
 
-<pre>
-``` javascript
-var myVar = "Hello, world!";
-```
-</pre>
+GitHub Actions went ahead and made a branch for you. So you'll need to add to the file we've created in the branch, and we will check your work as you work through this course!
 
-#### How it looks
+1. Return to your pull request.
+1. Use Markdown to create a task list. Here is an example:
 
-```javascript
-var myVar = "Hello, world!";
-```
+   ```md
+   - [ ] Turn on GitHub Pages
+   - [ ] Outline my portfolio
+   - [ ] Introduce myself to the world
+   ```
 
-### :keyboard: Activity: Adding a code example
+   Remember, a task list starts with the syntax `- [ ]` and then the task list item. The formatting is specific!
 
-1. As you did before, edit the file in this pull request.
-1. In the file, add the correct Markdown for a code example of your choice.
 1. Use the **Preview** tab to check your Markdown formatting.
-1. Commit your changes.
+1. Commit the changes to the file.
 1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
 
 <footer>
