@@ -1,5 +1,3 @@
-# [a-zA-Z0-9]
-
 <header>
 
 <!--
@@ -42,16 +40,8 @@ _Welcome to "Communicate using Markdown"! :wave:_
 
 ## This is an `<h2>` header
 
-### This is an `<h3>` header
-
-#### This is an `<h4>` header
-
-##### This is an `<h5>` header
-
 ###### This is an `<h6>` header, which is the smallest
 ```
-
-# h1 header
 
 #### How it looks
 
@@ -74,56 +64,6 @@ _Welcome to "Communicate using Markdown"! :wave:_
 1. At the bottom of the page, type a short, meaningful commit message that describes the change you made to the file.
 1. Click **Commit changes**.
 1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-
-## Step 2: Add an image
-
-Here is the syntax to add an image to a markdown file:
-
-| Name | Markdown | Example/HTML Output |
-| ---- | -------- | ------------------- |
-| 1    | `![Alt](https://a.com)` | `<img src="https://a.com" alt="Alt" />` |
-| 2    | `![Relative](/img.jpg)` | `<img src="/img.jpg" alt="Relative" />` |
-
-### Example
-
-```md
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
-```
-
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
-
-## Step 3: Add a Code Example
-
-Here is the syntax to add code to a markdown file:
-
-| Name | Markdown | Example/HTML Output |
-| ---- | -------- | ------------------- |
-| **Inline Code**    | JS variable: \`let x = 1;\` | JS variable: <code>let x = 1;</code> |
-
-### Example
-
-**Code Block**
-
-```js
-const log = (arg) => console.log(arg);
-let arg = 4;
-log(arg);
-```
-
-## Step 4: Add Task List
-
-To add a Task List or a Checklist to a .md file:
-
-| Name | Markdown |
-| ---- | -------- |
-| 1    | `- [ ] Must include space` |
-| 2    | `- [x] Completed` |
-
-### Example
-
-- [x] List syntax is required
-- [x] This item is complete
-- [ ] This item is not complete
 
 ### :keyboard: Activity: Edit your file with headers
 
