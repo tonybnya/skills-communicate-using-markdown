@@ -88,6 +88,22 @@ Here is the syntax to add an image to a markdown file:
 
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
+## Step 3: Add a Code Example
+
+Here is the syntax to add code to a markdown file:
+
+| Name | Markdown | Example/HTML Output |
+| ---- | -------- | ------------------- |
+| **Inline Code**    | JS variable: `let x = 1;` | `JS variable: <code>let x = 1;</code>` |
+
+**Code Block**
+
+```js
+const log = (arg) => console.log(arg);
+let arg = 4;
+log(arg);
+```
+
 <footer>
 
 <!--
