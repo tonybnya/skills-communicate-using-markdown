@@ -71,6 +71,23 @@ _Welcome to "Communicate using Markdown"! :wave:_
 1. Click **Commit changes**.
 1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
 
+## Step 2: Add an image
+
+Here is the syntax to add an image to a markdown file:
+
+| Name | Markdown | Example/HTML Output |
+| ---- | -------- | ------------------- |
+| 1    | `![Alt](https://a.com)` | `<img src="https://a.com" alt="Alt" />` |
+| 2    | `![Relative](/img.jpg)` | `<img src="/img.jpg" alt="Relative" />` |
+
+### Example
+
+```md
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+```
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
 <footer>
 
 <!--
