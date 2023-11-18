@@ -94,7 +94,9 @@ Here is the syntax to add code to a markdown file:
 
 | Name | Markdown | Example/HTML Output |
 | ---- | -------- | ------------------- |
-| **Inline Code**    | JS variable: `let x = 1;` | `JS variable: <code>let x = 1;</code>` |
+| **Inline Code**    | JS variable: \`let x = 1;\` | JS variable: <code>let x = 1;</code> |
+
+### Example
 
 **Code Block**
 
@@ -103,6 +105,21 @@ const log = (arg) => console.log(arg);
 let arg = 4;
 log(arg);
 ```
+
+## Step 4: Add Task List
+
+To add a Task List or a Checklist to a .md file:
+
+| Name | Markdown |
+| ---- | -------- |
+| 1    | `- [ ] Must include space` |
+| 2    | `- [x] Completed` |
+
+### Example
+
+- [x] List syntax is required
+- [x] This item is complete
+- [ ] This item is not complete
 
 <footer>
 
