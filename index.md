@@ -1,7 +1,10 @@
 # This is an h1 header, which is the largest
 
+### Add an image
+
 ![Logo of GitHub](https://i.postimg.cc/J4Nsb2PW/github.png)
 
+### Add code snippet
 
 ```py
 """
@@ -36,3 +39,9 @@ def search(nums: list[int], target: int) -> bool:
              else:                                                                                                                                                             
                  print(f"{target}\t❌ not found ")
 ```
+
+### Add task list
+
+- [ ] Turn on GitHub Pages
+- [x] Outline my portfolio
+- [x] Introduce myself to the world
